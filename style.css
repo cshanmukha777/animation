@@ -1,20 +1,38 @@
 
     #box{
-        width: 100px;
-        height: 100px;
+        /* width: 100px;
+        height: 100px; */
         margin: 25%;
-        background-color: rgb(11, 70, 171);
+        background-color: rgb(35, 186, 212);
         transition-duration: 7s;
         transition-property: width;
         transition-timing-function: ease;
         transition-delay: 0s;
         margin: auto;
-        transition: width 6s ease-in-out 0.3s;
+        transition: width 6s ease-in-out 0.3s, height 6s ease-in-out 0.3s, box-shadow 6s ease-in-out 0.3s;
         border-radius: 10px;
+        animation: Rotate 1s ease-in-out 0s alternate forwards 5;
+        
+
 
     }
     #box:hover{
+        box-shadow: 5px 5px 50px aqua, 15px 15px 50px green;
         width: 400px;
         transition-delay: 0s;
         height: 400px;
+        transform: rotateX(5turn);
+        transform: scale(1);
+    }
+    div {
+        text-align: center;
+        font-size: large;
+        font-style: italic;
+        font-weight: bold;
+        
+        
+    }
+    body{
+        background-image: url(https://pimwp.s3-accelerate.amazonaws.com/2024/06/1Xs6Cnys-Untitled-design-18.jpg);
+        background-size: cover
     }
